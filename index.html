@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu_Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Happy+Monkey&family=Inder&family=Indie+Flower&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Lugrasimo&family=Norican&family=Noto+Sans+JP:wght@100..900&family=Noto+Sans+Mono:wght@100..900&family=Noto+Serif+Yezidi:wght@400..700&family=Noto+Traditional+Nushu:wght@300..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&family=Sedan:ital@0;1&family=Shippori+Mincho&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./script.js"></script>
+</head>
+
+<body>
+    <section class="menu">
+        <div class="title">
+            <h2>Our Menu</h2>
+        </div>
+        <!-- filter buttons -->
+        <div class="filter-button">
+            <button type="button" class="tab " id="allBtn">All</button>
+            <!-- <button id="all">All</button> -->
+            <button id="dinnerBtn">Dinner</button>
+            <button id="breakfastBtn">breakfast</button>
+            <button id="shakesBtn">shakes</button>
+        </div>
+        <!-- menu item -->
+        <div class="section-center">
+            <!-- single item -->
+            <article class="menu-iten list" id="breakfast">
+                <img src="./istockphoto-161170090-612x612.jpg" class="photo" alt="image">
+                <div class="item-info">
+                    <header>
+                        <h4>buttermilk pancakes</h4>
+                        <h4 class="price">$18.78</h4>
+                    </header>
+                    <p class="item-text">
+                        Buttermilk serves a few important purposes for making pancakes. First, it reacts with the baking soda giving the batter a nice rise.
+            </article>
+            <!-- end signle item -->
+            <article class="menu-iten list" id="dinner">
+                <img src="./dinner.jpg" class="photo" alt="image">
+                <div class="item-info">
+                    <header>
+                        <h4>Dinner Double</h4>
+                        <h4 class="price">$19.00</h4>
+                    </header>
+                    <p class="item-text">
+                        Typical dishes include rice, dal, vegetables, roti, papad, dahi (yogurt), small amounts of chutney or pickle, and a sweet dish
+                    </p>
+                </div>
+            </article>
+            <!-- end -->
+            <article class="menu-iten list"  id="shakes">
+                <img src="./pinut_butter.jpeg" class="photo" alt="image">
+                <div class="item-info">
+                    <header>
+                        <h4>Pinut_butter Milkshake</h4>
+                        <h4 class="price">$20</h4>
+                    </header>
+                    <p class="item-text">
+
+                        When peanut butter, milk and vanilla ice cream are combined in a blender and mixed until smooth, a delicious peanut butter milkshake takes birth to satisfy your palate and leave you wanting for more.                    </p>
+                </div>
+            </article>
+
+            <!-- end -->
+
+            <article class="menu-iten list" id="breakfast">
+                <img src="./uttapam.jpg" class="photo" alt="image">
+                <div class="item-info">
+                    <header>
+                        <h4>Uttapam</h4>
+                        <h4 class="price">$20.00</h4>
+                    </header>
+                    <p class="item-text">
+                        Uttapams are traditionally made with toppings such as tomatoes, onion, chillies, capsicum and coriander; other common choices are coconut, grated carrots and beets. They are often eaten with sambar or chutney.
+                    </p>
+                </div>
+            </article>
+
+            <!-- end -->
+
+
+            <article class="menu-iten list" id="dinner">
+                <img src="./birayani.avif" class="photo" alt="image">
+                <div class="item-info">
+                    <header>
+                        <h4>birayani</h4>
+                        <h4 class="price">$23.34</h4>
+                    </header>
+                    <p class="item-text">
+                        Biryani is a mixed rice dish, mainly popular in South Asia. It is made with rice, some type of meat and spices.
+                    </p>
+                </div>
+            </article>
+            <!-- end -->
+
+            <article class="menu-iten list" id="shakes">
+                <img src="./milkshake.jpg" class="photo" alt="image">
+                <div class="item-info">
+                    <header>
+                        <h4>milkshake</h4>
+                        <h4 class="price">$13.00</h4>
+                    </header>
+                    <p class="item-text">
+                        With a bit of cookie crunch, rich chocolate sauce, and creamy texture, it's no wonder that people are so fond of this flavorful Oreo milkshake.
+                    </p>
+                </div>
+            </article>
+
+            <!-- end -->
+            <article class="menu-iten list" id="breakfast">
+            <img src="./Focaccia.jpg" class="photo" alt="image">
+            <div class="item-info">
+                <header>
+                    <h4>Focaccia</h4>
+                    <h4 class="price">$15.99</h4>
+                </header>
+                <p class="item-text">
+                    focaccia, traditional Italian bread with many variations. A precursor of pizza, focaccia is one of Italy's most ancient breads. It is thought to have originated with the Etruscans
+                </p>
+            </div>
+            </article>
+
+            <!-- end -->
+
+            <article class="menu-iten list" id="breakfast">
+                <img src="./egssbacon.jpg" class="photo" alt="image">
+                <div class="item-info">
+                    <header>
+                        <h4>Egg Becons</h4>
+                        <h4 class="price">$18.98</h4>
+                    </header>
+                    <p class="item-text">
+                        Bacon and Eggs is a popular and most loves Continental breakfast that is extremely fulfilling and delicious. Bacon and eggs is a simple, easy and wholesome meal that is perfect for a fulfilling meal and one of the best Keto breakfast.
+                    </p>
+                </div>
+            </article>
+
+            <!-- end -->
+
+            <article class="menu-iten list" id="shakes">
+                <img src="./chocolate_milkshake.webp" class="photo" alt="image">
+                <div class="item-info">
+                    <header>
+                        <h4>chocolate_milkshake</h4>
+                        <h4 class="price">$14.98</h4>
+                    </header>
+                    <p class="item-text">
+                        cold milk, HERSHEY'S Syrup and vanilla or chocolate ice cream 
+                    </p>
+                </div>
+            </article>
+
+            <article class="menu-iten list" id="dinner">
+                <img src="./Kashmiri Pulao.jpg" class="photo" alt="image">
+                <div class="item-info">
+                    <header>
+                        <h4>Kashmiri Pulao</h4>
+                        <h4 class="price">$14.98</h4>
+                    </header>
+                    <p class="item-text">
+                        a pulao is rice that is flavored with various spices, then bulked up with the addition of vegetables, nuts or even meats.                    </p>
+                </div>
+            </article>
+
+
+            <article class="menu-iten list" id="shakes">
+                <img src="./man.jpg" class="photo" alt="image">
+                <div class="item-info">
+                    <header>
+                        <h4>Mango' Shake</h4>
+                        <h4 class="price">$13.00</h4>
+                    </header>
+                    <p class="item-text">
+
+                        sweet and seasonal cold beverage drink made from fresh mangoes, ice cream and full cream milk.                    </p>
+                </div>
+            </article>
+
+        </div>
+    </section>
+</body>
+
+</html>
